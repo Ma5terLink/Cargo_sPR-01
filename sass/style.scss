@@ -8,8 +8,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
 }
 
 .container {
@@ -30,8 +28,9 @@
 }
 
 a {
-    color: var(--color-black);
+    color: var(--color-white);
     &:hover {
+        color: var(--color-white);
         text-decoration: none;
     }
 }
@@ -41,5 +40,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+@import 'blocks/topline';
+@import 'blocks/first-line';
+
+@import 'blocks/txtStyles';
 @import 'blocks/pageup';
 @import 'blocks/media';

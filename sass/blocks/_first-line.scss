@@ -1,0 +1,27 @@
+.first-line {
+    padding: 27px 0 27px 0;
+    background-color: var(--color-dark);
+    &__wrapper {
+        display: flex;
+    }
+    &__divider {
+        border: 1px solid #F2F2F2;
+        margin: 0 30px;
+    }
+    &__ourOffices {
+        margin-top: 10px;
+        color: #fff;
+        min-width: 132px;
+        img{
+            margin-right: 10px;
+        }
+    }
+    &__menu {
+        display: flex;
+        margin-left: 346px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+    }
+}
