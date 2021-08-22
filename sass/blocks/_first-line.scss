@@ -1,6 +1,7 @@
 .first-line {
     padding: 27px 0 27px 0;
     background-color: var(--color-dark);
+    letter-spacing: 0.05em;
     &__wrapper {
         display: flex;
     }
@@ -11,7 +12,7 @@
     &__ourOffices {
         margin-top: 10px;
         color: #fff;
-        min-width: 132px;
+        min-width: 134px;
         img{
             margin-right: 10px;
         }
