@@ -1,0 +1,51 @@
+.map {
+    position: relative;
+    height: 450px;  
+}
+.footer {
+    height: 161px;
+    background-color: var(--color-gold);
+    &__wrapper {
+        display: flex;
+        padding-top: 65px;
+    }
+    &__contacts {
+        margin-left: 30px;
+        align-self: center;
+        &-address {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #F2F2F2;
+            opacity: 0.8;
+        }
+        &-email a {
+            padding-top: 10px;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #2F343A;
+        }
+    }
+    &__phones {
+        margin: 2px 0 0 89px;
+        a {
+            display: block;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #F2F2F2;
+        }
+    }
+    &__webmasters {
+        width: 404px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        text-decoration-line: underline;
+        color: #2F343A;    
+        align-self: center;
+    }
+
+}

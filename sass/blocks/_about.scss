@@ -1,16 +1,17 @@
 .about-company {
-    position: relative;    
-    padding-top: 120px;
+    position: relative;
     height: 602px;
     background: var(--color-dark);
     .container {
         z-index: 1;
+        /* height: 100%; */
     }
     &__wrapper {
         display: flex;
-        padding-top: 80px;
+        padding-top: 120px;
     }
     &__infoBlock {
+        margin-top: 80px;
         margin-right: 65px;
         &-title {
             padding-top: 40px;
@@ -31,6 +32,7 @@
         }
     }
     &__gridBlock {
+        margin-top: 80px;
         display: grid;
         grid-template-columns: repeat(3,200px);
         grid-template-rows: repeat(2,160px);
@@ -112,13 +114,17 @@
     }
 
     
-    &__fonBox {
+    &__background {
+        display: flex;
         position: absolute;
         top: 120px;
         left: 50%;
         transform: translateX(-50%);
-        width: 410px;
-        height: 482px;
-        background-color: #393F47;
+        height: 100%;
+        &-center {
+            width: 410px;
+            height: 482px;
+            background-color: #393F47;
+        }
     }
 }
