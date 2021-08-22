@@ -3,6 +3,9 @@
 
 Ссылка на шаблон: https://www.figma.com/file/MjDKUvcmYmEkdnZx7Fh93f1W/Templates-%235.-More-on-Figma.info?node-id=0%3A1
 
+(22-08-21 20:10)
+- Собрана секция about_company.
+
 (22-08-21 18:15)
 -Собрана секция all-services.
 

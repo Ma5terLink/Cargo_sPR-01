@@ -1,0 +1,124 @@
+.about-company {
+    position: relative;    
+    padding-top: 120px;
+    height: 602px;
+    background: var(--color-dark);
+    .container {
+        z-index: 1;
+    }
+    &__wrapper {
+        display: flex;
+        padding-top: 80px;
+    }
+    &__infoBlock {
+        margin-right: 65px;
+        &-title {
+            padding-top: 40px;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 49px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #fff;
+        }
+        &-descr {
+            padding-top: 16px;
+            width: 445px;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 23px;
+            color: #fff;
+        }
+    }
+    &__gridBlock {
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+        grid-template-rows: repeat(2,160px);
+        grid-auto-rows: 160px;
+        grid-auto-columns: 200px;
+        gap: 1px;
+        background-color: var(--color-gold);
+        &-item {
+            display: block;
+            background-color: #fff;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                visibility: hidden;
+            }
+            &-number {
+                padding-top: 23px;
+                font-weight: bold;
+                font-size: 64px;
+                line-height: 75px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #2F343A;
+                &.minNum {
+                    padding-top: 25px;
+                    font-weight: bold;
+                    font-size: 55px;
+                    line-height: 68px;
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    text-transform: uppercase;
+                    color: #2F343A;
+                }
+            }
+            &-text {
+                position: relative;
+                top: -7px;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #000000;
+            }
+            &-descr {
+                position: relative;
+                top: 3px;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 14px;
+                text-align: center;
+                color: #000000;
+            }
+        &.image {
+            .about-company__gridBlock-item-number,
+            .about-company__gridBlock-item-text,
+            .about-company__gridBlock-item-descr {
+                display: none;
+            }
+            img {
+                visibility: visible;
+            }
+        }
+        &.none {
+            background-color: var(--color-dark);
+            .about-company__gridBlock-item-number,
+            .about-company__gridBlock-item-text,
+            .about-company__gridBlock-item-descr {
+                display: none;
+                }
+                img {
+                    display: none;
+                }
+            
+            }
+        }
+    }
+
+    
+    &__fonBox {
+        position: absolute;
+        top: 120px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 410px;
+        height: 482px;
+        background-color: #393F47;
+    }
+}
