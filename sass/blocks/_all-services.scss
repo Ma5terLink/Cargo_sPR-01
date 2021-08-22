@@ -1,0 +1,72 @@
+.all-services {
+    padding-top: 120px;
+    background: var(--color-dark);
+    &__title {
+        padding-top: 40px;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 49px;
+        letter-spacing: 0.05em;
+        color: #fff;
+    }
+
+
+
+
+
+    &__grid {
+        padding-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,180px);
+        gap: 1px;
+        &-item {
+            background: #393F47;
+            text-align: center;
+            img {
+                position: relative;
+                padding-top: 55px;
+                src: url(../icons/airplane-white.svg);
+            }
+            a {
+                display: block;
+            }
+            &-title {
+                padding-top: 43px;
+                padding-bottom: 31px;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                letter-spacing: 0.05em;
+                color: #fff;
+                text-transform: uppercase;
+            }
+
+
+
+
+
+
+            &.active {
+                position: relative;
+                background: var(--color-gold);
+                @include before_circle;
+                &:before {
+                    width: 70px;
+                    height: 70px;
+                    z-index: 0;
+                    top: 35px;
+                    left: 104px;
+                }
+                img {
+                    padding-bottom: 29px;
+                    width: 30px;
+                    height: 30px;
+                    top: 55px;
+                    z-index: 1;
+                    background: url('../icons/airplane-dark.svg') no-repeat;
+                }
+            }
+        }
+    }
+}

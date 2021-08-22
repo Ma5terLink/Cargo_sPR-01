@@ -5,23 +5,11 @@
     .container {
         z-index: 1;
     }
-    &__backgrounds {
-        display: flex;
-        position: absolute;
-        top: 0;
-        height: 100%;
-        &-left {
-            margin-left: 9px;
-            width: 755px;
-            background: #393F47;
-        }
-        &-right {
-            margin-left: 410px;
-            width: 731px;
-            background: #393F47;
-        }
-        
-    }
+
+
+
+
+
     &__wrapper {
         display: flex;
         padding-top: 120px;
@@ -98,4 +86,31 @@
             }
         }
     }
+
+
+
+
+    
+    &__backgrounds {
+        display: flex;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        &-left {
+            margin-left: 9px;
+            width: 755px;
+            background: #393F47;
+        }
+        &-right {
+            margin-left: 410px;
+            width: 731px;
+            background: #393F47;
+        }
+        
+    }
 }   
+
+
+
+
+
