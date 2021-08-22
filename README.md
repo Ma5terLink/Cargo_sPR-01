@@ -3,6 +3,9 @@
 
 Ссылка на шаблон: https://www.figma.com/file/MjDKUvcmYmEkdnZx7Fh93f1W/Templates-%235.-More-on-Figma.info?node-id=0%3A1
 
+(22-08-21 16-15)
+- Собрана секция services. Мелкие правки в верстке предыдущих блоков.
+
 (22-08-21 14-20)
 - Собрана секция first-screen.
 
