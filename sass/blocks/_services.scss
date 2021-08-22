@@ -1,0 +1,97 @@
+.services {
+    height: 561px;
+    background: var(--color-dark);
+    position: relative;
+    .container {
+        z-index: 1;
+    }
+    &__backgrounds {
+        display: flex;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        &-left {
+            margin-left: 9px;
+            width: 755px;
+            background: #393F47;
+        }
+        &-right {
+            margin-left: 410px;
+            width: 731px;
+            background: #393F47;
+        }
+        
+    }
+    &__wrapper {
+        display: flex;
+        padding-top: 120px;
+    }
+    &__leftBlock {
+        padding-left: 15px;
+        &-title {
+            padding-top: 40px;
+            width: 445px;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 49px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #fff;
+        }
+        &-descr {
+            padding-top: 30px;
+            width: 445px;
+            font-size: 18px;
+            line-height: 28px;
+            color: #fff;
+        }
+        &-link {
+            margin-top: 50px;
+            span {
+                display: block;
+                a {
+                    padding: 18px 48px;
+                    text-transform: uppercase;
+                    background-color: var(--color-gold);
+                }
+            }
+        }
+    }
+
+
+
+
+
+    &__center {
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+
+
+
+
+
+    &__rightBlock {
+        margin: 38px 0 0 30px;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--color-gold);
+        justify-content: flex-end;
+        &-next {
+            display: flex;
+            justify-content: flex-end;
+            img {
+                margin-left: 31px;
+            }
+        }
+        &-prev {
+            display: flex;
+            margin-top: 245px;
+            img {
+                margin-right: 30px;
+            }
+        }
+    }
+}   
