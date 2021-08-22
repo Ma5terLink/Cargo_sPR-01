@@ -79,18 +79,22 @@
         text-transform: uppercase;
         color: var(--color-gold);
         justify-content: flex-end;
-        &-next {
-            display: flex;
-            justify-content: flex-end;
-            img {
-                margin-left: 31px;
+        &-next a {
+                display: flex;
+                justify-content: flex-end;
+                color: var(--color-gold);
+                img {
+                    margin-left: 31px;
+                }
             }
-        }
         &-prev {
-            display: flex;
             margin-top: 245px;
-            img {
-                margin-right: 30px;
+            a {
+                display: flex;
+                color: var(--color-gold);
+                img {
+                    margin-right: 30px;
+                }
             }
         }
     }
