@@ -3,6 +3,9 @@
 
 Ссылка на шаблон: https://www.figma.com/file/MjDKUvcmYmEkdnZx7Fh93f1W/Templates-%235.-More-on-Figma.info?node-id=0%3A1
 
+(02-09-21 23:30)
+- Смена классов активности в секциях services и about, при наведении на элементы.
+
 (22-08-21 23:30)
 - Мелкие правки.
 

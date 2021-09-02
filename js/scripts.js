@@ -2,7 +2,7 @@
 const pageCH = document.querySelector('.pageup');
 
 $(window).scroll(function () {
-    console.log($(this).scrollTop());
+    // console.log($(this).scrollTop());
     if ($(this).scrollTop() > 700) {
         $('.pageup').fadeIn();
     } else {
@@ -20,3 +20,33 @@ $("a[href^='#up']").click(function () {
     $("html, body").animate({scrollTop: '0'});
     return false;
 });
+
+// Смена активного класса в секции services
+const servGrid = document.querySelectorAll('.all-services__grid-item');
+servGrid.forEach((item, i) => {
+    let num;
+    num = (servGrid.length);
+    servGrid[i].addEventListener('mouseenter', () => {
+        for (let j = 0; j < num; j++) {
+        servGrid[j].classList.remove('active');
+        }
+        servGrid[i].classList.add('active');
+    });
+});
+// "Вертим" картинки (смена классов) в секции about
+const aboutGrid = document.querySelectorAll('.about-company__gridBlock-item');
+aboutGrid.forEach((item, i) => {
+    aboutGrid[i].addEventListener('mouseenter', () => {
+        if (aboutGrid[i].classList.length > 1) {
+            if (aboutGrid[i].classList[1] == 'image') {
+            aboutGrid[i].classList.remove('image');
+            }
+        } else {
+            aboutGrid[i].classList.add('image');
+        }
+    });
+});
+
+
+
+
